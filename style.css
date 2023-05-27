@@ -1,0 +1,79 @@
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+/* Font family */
+h1, h4, h3,h5,p,a,h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #FD7D54;
+    font-size: 64px;
+    margin-top: 6%;
+}
+h4{
+    font-size: 14px;
+    line-height: 38px;
+}
+
+body {
+    background-image: url("../images/background.png");
+    width: 400px;   
+   
+}
+main{
+    background-color: black;
+    width: 80vw;
+    height: 100vh;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin:2%;
+}
+
+.card{
+    border:2px solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin: 40px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    margin:17px;
+    line-height: 18px;
+}
+
+hr{
+    content: '';
+    position: relative;
+    width: 24px;
+    border: 3px solid #FFFFFF;
+}
+
+img{
+        width: 120px;
+        margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color:#41C3F6;
+}

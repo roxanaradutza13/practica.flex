@@ -1,0 +1,17 @@
+nav{
+    color:white;
+    background-color: black;    
+    padding: 1%;
+    width:100vw;
+}
+.logo{
+    width: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+}
